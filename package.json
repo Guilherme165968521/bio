@@ -1,3 +1,8 @@
+"scripts": {
+  "build": "YOUR_BUILD_SCRIPT || (echo 'Build failed! Exiting...' && exit 1)",
+  "postbuild": "echo 'Build completed.'"
+}
+
 {
   "name": "vite-react-typescript-starter",
   "private": true,
