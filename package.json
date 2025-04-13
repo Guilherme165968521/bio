@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "vercel-build": "vite build"  // Adicionado para compatibilidade com Vercel
+    "vercel-build": "vite build",  // Adicionado para compatibilidade com Vercel
   },
   "dependencies": {
     "framer-motion": "^11.0.8",
@@ -16,7 +16,7 @@
     "react": "^18.2.0",  // Versão mais estável
     "react-dom": "^18.2.0",
     "react-tilt": "^1.0.2",
-    "typed.js": "^2.1.0"
+    "typed.js": "^2.1.0",
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
@@ -30,6 +30,6 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",  // Versão mais testada
-    "vite": "^5.2.8"  // Versão mais estável
+    "vite": "^5.2.8",  // Versão mais estável
   }
 }
