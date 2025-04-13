@@ -1,7 +1,14 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
   "build": {
     "env": {
-      "ENABLE_BUILD": "true"
+      "NODE_ENV": "production"
     }
   }
 }
