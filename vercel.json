@@ -1,3 +1,7 @@
 {
-  "ignoreBuildStep": true
+  "build": {
+    "env": {
+      "ENABLE_BUILD": "true"
+    }
+  }
 }
